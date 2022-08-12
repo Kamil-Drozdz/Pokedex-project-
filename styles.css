@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Serif+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slob", serif;
+}
+body {
+  text-align: center;
+  background-image: linear-gradient(180deg, #fab005 5%, #ff8787 95%);
+  min-height: 100vh;
+}
+main {
+  display: inline-block;
+  margin-top: 3%;
+  padding: 5%;
+  position: relative;
+}
+
+.pokedex {
+  width: 100%;
+  max-width: 425px;
+}
+
+.pokemon_image {
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  transform: translate(-37%, 20%);
+  height: 8%;
+}
+.data {
+  position: absolute;
+  font-weight: 200;
+  color: rgb(2, 1, 1);
+  top: 55%;
+  right: 29%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+.pokemon_name {
+  text-transform: capitalize;
+}
+
+.form {
+  position: absolute;
+  width: 100%;
+  top: 64%;
+  right: 2%;
+}
+
+.input_search {
+  width: 60%;
+  padding: 2%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 4px;
+  border-bottom-left-radius: 15px;
+  color: #333;
+  font-size: clamp(8px, 5vw, 25px);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #222;
+}
+
+.all_buttons {
+  position: absolute;
+  bottom: 15%;
+  left: 18%;
+  width: 60%;
+  transform: translate(-50, 0);
+  display: flex;
+  gap: 25px;
+}
+.button {
+  width: 50%;
+  padding: 3%;
+  border: 2px solid #000;
+  border-radius: 4px;
+  font-size: clamp(8px, 5vw, 25px);
+  color: white;
+  background-color: #444;
+  box-shadow: -3px 4px 0 #222, -5px 7px 0 #000;
+}
+.button:active {
+  box-shadow: inset -3px 4px 0 #222;
+  font-size: 0.9rem;
+}
