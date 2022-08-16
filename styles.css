@@ -25,11 +25,11 @@ main {
 .pokemon_image {
   position: absolute;
   left: 45%;
-  top: 40%;
+  top: 35%;
   transform: translate(-37%, 20%);
-  height: 8%;
+  height: 14%;
 }
-.data {
+.poke_data {
   position: absolute;
   font-weight: 200;
   color: rgb(2, 1, 1);
