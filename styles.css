@@ -33,8 +33,8 @@ main {
   position: absolute;
   font-weight: 200;
   color: rgb(2, 1, 1);
-  top: 55%;
-  right: 29%;
+  top: 54%;
+  right: 40%;
   font-size: clamp(8px, 5vw, 25px);
 }
 .pokemon_name {
@@ -49,8 +49,8 @@ main {
 }
 
 .input_search {
-  width: 60%;
-  padding: 2%;
+  width: 50%;
+  padding: 1%;
   outline: none;
   border: 2px solid #333;
   border-radius: 4px;
@@ -62,12 +62,12 @@ main {
 
 .all_buttons {
   position: absolute;
-  bottom: 15%;
-  left: 18%;
-  width: 60%;
+  bottom: 20%;
+  left: 22%;
+  width: 50%;
   transform: translate(-50, 0);
   display: flex;
-  gap: 25px;
+  gap: 22px;
 }
 .button {
   width: 50%;

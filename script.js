@@ -38,12 +38,12 @@ const renderPokemon = async (pokemon) => {
     searchPokemon = data.id;
   } else {
     pokemonImage.style.display = "none";
-    pokemonName.innerHTML = "Ups not found :(";
+    pokemonName.innerHTML = "Not found :c";
     pokemonNumber.innerHTML = "";
   }
 };
 
-form.addEventListener("sumbit", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   renderPokemon(input.value.toLowerCase());
